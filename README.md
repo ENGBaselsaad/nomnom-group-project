@@ -75,45 +75,52 @@ NumNum provides a platform for users to:
 
 # Installation and Setup
 
-* Clone the repository:
+### Clone the repository
 
-git clone (https://github.com/ENGBaselsaad/nomnom-group-project.git)
+```bash
+$ git clone (https://github.com/ENGBaselsaad/nomnom-group-project.git)
+```
+
+### Navigate to the project directory
+
+```bash
+$ cd nomnom
+```
+
+### Create and activate a virtual environment:
+
+```bash
+$ python -m venv venv
+```
+* On Windows: venv\Scripts\activate
 
 
-* Navigate to the project directory:
+### Install the required dependencies:
 
-cd nomnom
-
-
-* Create and activate a virtual environment:
-
-python -m venv venv
-
-** On Windows: venv\Scripts\activate
-
-
-* Install the required dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
-
-* Configure the environment variables:
+### Configure the environment variables:
 
 Create a .env file in the project root.
 
 Add database credentials and other configurations.
 
 
-* Run database migrations:
-  
+### Run database migrations:
+
+```bash
 python manage.py migrate
+```
 
+### Start the development server:
 
-* Start the development server:
-
+```bash
 python manage.py runserver
+```
 
-Access the application at http://127.0.0.1:8000.
+* Access the application at http://127.0.0.1:8000.
 
 
 # Data Models
