@@ -1,7 +1,9 @@
-# NomNom Web Application
+# NumNum Web Application
 
-NomNom is a full-stack web application designed to bring food enthusiasts together by sharing and interacting with recipes.
+NumNum is a full-stack web application designed to bring food enthusiasts together by sharing and interacting with recipes.
 This project was developed as part of the graduation requirements for the Full Stack Online Bootcamp by AXSOS Academy.
+
+![image](https://github.com/user-attachments/assets/f4fc1184-bcac-470a-ad1c-6e64b5135d2b)
 
 # Table of Contents:
 
@@ -16,7 +18,7 @@ This project was developed as part of the graduation requirements for the Full S
 
 # Project Description:
 
-NomNom provides a platform for users to:
+NumNum provides a platform for users to:
 
 * Browse, filter, and search recipes by title, ingredients, or rating.
 * Share their own recipes with detailed descriptions and images.
@@ -75,7 +77,7 @@ NomNom provides a platform for users to:
 
 * Clone the repository:
 
-git clone https://github.com/your-repo/nomnom.git
+git clone (https://github.com/ENGBaselsaad/nomnom-group-project.git)
 
 
 * Navigate to the project directory:
@@ -86,7 +88,8 @@ cd nomnom
 * Create and activate a virtual environment:
 
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+** On Windows: venv\Scripts\activate
 
 
 * Install the required dependencies:
@@ -97,6 +100,7 @@ pip install -r requirements.txt
 * Configure the environment variables:
 
 Create a .env file in the project root.
+
 Add database credentials and other configurations.
 
 
